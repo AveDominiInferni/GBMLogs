@@ -3,5 +3,6 @@
 ## Version: 0.1
 ## Notes:
 ## Author: AveDominiInferni, Pirupuku
+## DefaultState: disabled
 ## SavedVariablesPerCharacter: charname, blog, mlog, money
 GuildBankLogger.lua
