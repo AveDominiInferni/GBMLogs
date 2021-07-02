@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: GBMLogs
+## Version: 0.2
+## Notes:
+## Author: AveDominiInferni
+## DefaultState: disabled
+## SavedVariables: bank, mail
+GBMLogs.lua
