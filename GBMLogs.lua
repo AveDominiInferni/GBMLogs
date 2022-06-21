@@ -4,14 +4,10 @@ charname = UnitName("player")
 DEFAULT_CHAT_FRAME:AddMessage("Bank log tracking enabled")
 
 function eventHandler()
-	DEFAULT_CHAT_FRAME:AddMessage("enters event handler")
-
 	if bank == nil then
 		bank = ""
 	end
 	if event == "BANKFRAME_OPENED" then
-		DEFAULT_CHAT_FRAME:AddMessage("enters bankframe opened")
-
 		local name_start, name_end = string.find(bank, charname)
 		if name_start ~= nil then
 			local entry_end, junk = string.find(bank, "$", name_end, true)
