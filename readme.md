@@ -11,7 +11,6 @@ This addon is used to make logs of your characters inventory and mailbox. The lo
 All you need to do is open the bank tab and a message will be displayed in your chat window.
 ![alt text](https://i.postimg.cc/dVQPq5Jx/logged.png)
 ## How to log mail
-Type /mlog or make a macro and put it on your action bar.
-WARNING: Make sure to delete the .lua file after you upload it so you don't upload the same mail logs multiple times. The logs will not be accurate and you will use up all your free storage.
+Type ```/mlog``` or make a macro and put it on your action bar.<br>WARNING: Make sure to delete the .lua file after you upload it so you don't upload the same mail logs multiple times. The logs will not be accurate and you will use up all your free storage.
 ## How to upload logs
 All you need to do is find the 'GBMLogs' file in Wow-Directory\WTF\Account\[Account name]\SavedVariables and attach it to your message with the command ```/log```
